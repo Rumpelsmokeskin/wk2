@@ -1,0 +1,67 @@
+/* select the nav element to affect all NAV sections in each page */
+nav{
+    height: 50px;
+    background-color: beige;
+    padding: 25px;
+    text-align:center;
+}
+
+/* Pseudo-class style for the <a> tag */
+a:hover 
+{
+    color:yellowgreen;
+    text: shadow 5px ;
+}
+
+h1{
+    text-align: center;
+    color:orange;
+}
+
+p{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 5px;
+    width: 700px;
+    margin:auto;
+    padding:20px;
+}
+/* class styling */
+.catlist{
+    color: orange;
+   
+}
+#catpic{
+    border: 5px solid black;
+    padding: 5px ;
+    border-radius: 10px;
+}
+form{
+    background-color:orange;
+    padding:20px;
+}
+h3{
+    color:green;
+}
+h3:hover{
+    color:aqua;
+}
+.cattable{
+    border-style:double;
+    border-color:orange;
+    border-radius:5px;
+    
+
+}
+th{
+    background-color: lightgoldenrodyellow;
+    border: solid black 1px;
+
+}
+td{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px;
+
+}
